@@ -1,0 +1,158 @@
+@charset "UTF-8";
+body {
+    width: 900px;
+    background-color: rgb(14, 14, 14);
+    font-family: Arial, sans-serif;
+    margin: auto 15% auto 15%;
+}
+
+header#cabecalho {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    position: relative;
+    margin-top: -30px;
+}
+
+header#cabecalho h1 {
+    font-family: Arial, sans-serif;
+    font-size: 25pt;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    letter-spacing: 17px;
+    padding-top: 60px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2 {
+    font-family: 'Arial Narrow', sans-serif;
+    font-size: 15pt;
+    color: white;
+    text-align: center;
+    padding-bottom: 45px;
+    margin-top: 30px;
+    letter-spacing: 10px;
+}
+
+div#redes_sociais {
+    background-color: rgb(37, 37, 37);
+    margin-top: -20px;
+}
+
+div#redes_sociais ul {
+    list-style-type: none;
+}
+
+div#redes_sociais li {
+    display: inline;
+}
+
+div#redes_sociais img {
+    width: 150px;
+}
+
+div#redes_sociais a:hover {
+    opacity: 1px;
+    background-color: #e2ece5b2;
+}
+
+div#Interface {
+    background-color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/*-------------------*/
+
+section#Corpo h1 {
+    text-decoration: underline;
+    font-size: 15pt;
+}
+
+section#Corpo h2 {
+    font-size: 13pt;
+}
+
+aside#lateral h1 {
+    text-decoration: underline;
+    font-size: 15pt;
+}
+
+aside#lateral h2 {
+    font-size: 13pt;
+}
+
+section#Corpo {
+    display: block;
+    width: 400px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 20px;
+    margin-top: -16px;
+    background-color: rgb(238, 238, 238);
+    font-family: Arial;
+}
+
+section#Corpo h1 {
+    text-align: center;
+}
+
+section#Corpo ul {
+    text-align: center;
+}
+
+section#Corpo li {
+    text-align: center;
+    margin-left: -30px;
+    font-family: Arial, sans-serif;
+}
+
+section#Corpo img {
+    margin-top: 35px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+aside#lateral {
+    display: block;
+    /* float: right; */
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+figure.fotoPerfil figcaption {
+    font-size: 10pt;
+    opacity: 0;
+    width: 50%;
+    margin-top: -60px;
+    margin-left: 80px;
+    top: -20px;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    padding: 0px;
+    /* A propriedade padding define uma a distância entre o conteúdo de um elemento e suas bordas.*/
+    box-sizing: border-box;
+    /*A propriedade CSS box-sizing é utilizada para alterar a propriedade padrão da box model, usada para calcular larguras (widths) e alturas (heights) dos elementos. É possível usar essa propriedade para emular o comportamento dos navegadores (browsers) que não suportam corretamente a especificação da propriedade CSS box model.*/
+    transition: opacity 1s;
+    margin-bottom: 90px;
+}
+
+figure.fotoPerfil:hover figcaption {
+    opacity: 3;
+}
+
+footer#rodape {
+    border-top: 1px solid #000000;
+    text-align: center;
+    clear: both;
+}
+
+footer#rodape p {
+    padding-bottom: 20px;
+}
